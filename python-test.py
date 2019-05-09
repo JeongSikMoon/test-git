@@ -1,3 +1,5 @@
-#구구단2단
-for a in range(1,10):
-    print(2,'*',a,'=',2*a)
+#구구단
+for i in range(1,10):
+    for j in range(1,10):
+        print(i,'*',j,'=',i*j)
+    print('-----------')
